@@ -1,0 +1,46 @@
+.console
+	{
+		width: 60%;
+		height: 30px;
+		background-color: black;
+		color: yellow;
+        margin: 0;
+        padding: 0;
+	}
+
+.informationsJeu
+    {
+        width: 100%;
+		height: 85vh;
+		background-color: black;
+		color: yellow;
+        margin: 0;
+        padding: 10px;
+    }
+
+body a
+    {
+        text-decoration: none;
+        color: black;
+        margin: 5px;
+    }
+
+    body a:hover{
+        border: 1px solid black;
+        color: yellow;
+        background-color: black;
+    }
+
+#lieuActuel{
+    background-color: black;
+	color: yellow;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    width: 35%;
+    margin-left: 15px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+
+}
