@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles_welcome.css">
+        <title>Home page</title>
+    </head>
+    <body>
+        <nav id="navbar">
+            <div id="left_navbar">
+                <a href="index.html"><img src="../assets/f.png" alt=""></a>
+                <input type="text" placeholder="Research on Fakebook">
+            </div>
+
+            <div id="center_navbar">
+                    <div class="image_in_center_navbar">
+                        <a href="user_page.html">
+                            <img src="../assets/home.png" alt="Home image">
+                        </a>
+                    </div>
+
+                    <div class="image_in_center_navbar">
+                        <a href="#">
+                            <img src="../assets/friends.png" alt="Friends Image">
+                        </a>
+                    </div>
+
+                    <div class="image_in_center_navbar">
+                        <a href="#">
+                            <img src="../assets/watch.png" alt="Watch Image">
+                        </a> 
+                    </div>
+
+                    <div class="image_in_center_navbar">
+                        <a href="#">
+                            <img src="../assets/marketplace.png" alt="Marketplace Image">
+                        </a>
+                    </div> 
+
+                    <div class="image_in_center_navbar">
+                        <a href="#">
+                            <img src="../assets/default.png" alt="Default User Image">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="right_navbar">
+                <img src="../assets/notification.png" alt="">
+                <a href="user_page.html" class="user_account_name">MZ</a>
+            </div>
+        </nav>
+        <section id="parent_container">
+            <section id="left_container">
+                <table id="table_left_container">
+                    <tr>
+                        <td id="user_row_image" class="image_row">                            
+                            <img src="../assets/default.png" alt="Default User Image">
+                            <a href="user_page.html">User page</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="friend_row_image" class="image_row">
+                            <img src="../assets/friends.png" alt="Friends Image">
+                            <a href="#" id="friend_page">Find friends</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="group_row_image" class="image_row">                            
+                            <img src="../assets/groups.png" alt="Groups Image">
+                            <a href="#">Groups</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="marketplace_row_image" class="image_row">                                            
+                            <img src="../assets/marketplace.png" alt="Marketplace Image">
+                            <a href="#">Marketplace</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="watch_row_image" class="image_row">                                            
+                            <img src="../assets/watch.png" alt="Watch Image">
+                            <a href="#">Watch</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="news_row_image" class="image_row">                                            
+                            <img src="../assets/news.png" alt="News Image">
+                            <a href="#">News</a>
+                        </td>
+                    </tr> 
+                    <td id="user_row_image" class="image_row">                            
+                        <img src="../assets/default.png" alt="Default User Image">
+                        <a href="#">User page</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="friend_row_image" class="image_row">
+                        <img src="../assets/friends.png" alt="Friends Image">
+                        <a href="#" id="friend_page">Find friends</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="group_row_image" class="image_row">                            
+                        <img src="../assets/groups.png" alt="Groups Image">
+                        <a href="#">Groups</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="marketplace_row_image" class="image_row">                                            
+                        <img src="../assets/marketplace.png" alt="Marketplace Image">
+                        <a href="#">Marketplace</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="watch_row_image" class="image_row">                                            
+                        <img src="../assets/watch.png" alt="Watch Image">
+                        <a href="#">Watch</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="news_row_image" class="image_row">                                            
+                        <img src="../assets/news.png" alt="News Image">
+                        <a href="#">News</a>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <img src="../assets/arrow_down.png" alt="">
+                        <a href="#">Voir plus</a>
+                    </td>
+                </tr>
+                </table>
+            </section>
+            <section id="center_container">
+                <nav id="nav_of_center_slider">
+                    <div class="slides">A</div>                
+                    <div class="slides">B</div>                    
+                    <div class="slides">C</div>                    
+                    <div class="slides">D</div>                    
+                    <div class="slides">E</div>
+                    <div class="slides">F</div>                    
+                    <div class="slides">A2</div>                
+                    <div class="slides">B2</div>                    
+                    <div class="slides">C2</div>                    
+                    <div class="slides">D2</div>                    
+                    <div class="slides">E2</div>
+                    <div class="slides">F2</div>
+                    <a class="slider_button prev" onclick="plusSlides(-6)">❮</a>
+                    <a class="slider_button next" onclick="plusSlides(6)">❯</a>
+                </nav>
+                <section id="posting_story_section">
+                    <form action="" id="wassup">
+                        <a href="user_page.html" class="user_account_name wassup_user_account_name">MZ</a>
+                        <textarea id="wassup_text" name="wassup_text" placeholder="What's up, User?"></textarea>
+                    </form>
+                    <nav id="nav_story_posting_section">
+                        <div class="nav_story_posting_section_specialized_search">
+                            <img src="../assets/video.png" width="25px" alt="Simple camera explaining that search will be made in video">   
+                            <a href="#">Videos</a>
+                        </div>   
+                         
+                        <div class="nav_story_posting_section_specialized_search">
+                            <img src="../assets/photo.png" width="25px" alt="Simple picture explaining that search will be made in picture">
+                            <a href="#">Pictures</a>
+                        </div>
+                    </nav>
+                </section>
+                <section class="stories">
+                    <section class="story_already_posted">
+                        <h3 class="user_name">User name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        At expedita dolorem vitae asperiores maxime corporis iure tenetur ea molestias eaque.</p>
+                        <img class="story_image" src="../assets/story.png" alt="A modern kitchen with a classy decoration" width="600">
+                        <a href="" class="center_container_displaying_more"><img src="../assets/nabla.svg" width="20px" height="20px"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio molestiae libero voluptates, minima magnam rerum consequuntur
+                        tempora voluptatum at quod mollitia maiores optio perferendis aliquid ipsum
+                        officiis harum? Itaque magnam officia non laudantium veniam ullam soluta eum
+                        hic deserunt. Expedita corrupti atque culpa quae aliquam qui, deserunt harum quod ipsa!</p>
+                        
+                    
+                    </section>
+
+                    <section class="story_already_posted">
+                        <h3 class="user_name">User name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        At expedita dolorem vitae asperiores maxime corporis iure tenetur ea molestias eaque.</p>
+                        <img class="story_image" src="../assets/story.png" alt="A modern kitchen with a classy decoration" width="600">
+                        <a href="" class="center_container_displaying_more"><img src="../assets/nabla.svg" width="20px" height="20px"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio molestiae libero voluptates, minima magnam rerum consequuntur
+                        tempora voluptatum at quod mollitia maiores optio perferendis aliquid ipsum
+                        officiis harum? Itaque magnam officia non laudantium veniam ullam soluta eum
+                        hic deserunt. Expedita corrupti atque culpa quae aliquam qui, deserunt harum quod ipsa!</p>
+                    
+                    </section>
+
+                    <section class="story_already_posted">
+                        <h3 class="user_name">User name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        At expedita dolorem vitae asperiores maxime corporis iure tenetur ea molestias eaque.</p>
+                        <img class="story_image" src="../assets/story.png" alt="A modern kitchen with a classy decoration" width="600">
+                        <a href="" class="center_container_displaying_more"><img src="../assets/nabla.svg" width="20px" height="20px"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio molestiae libero voluptates, minima magnam rerum consequuntur
+                        tempora voluptatum at quod mollitia maiores optio perferendis aliquid ipsum
+                        officiis harum? Itaque magnam officia non laudantium veniam ullam soluta eum
+                        hic deserunt. Expedita corrupti atque culpa quae aliquam qui, deserunt harum quod ipsa!</p>
+                    
+                    </section>
+
+                    <section class="story_already_posted">
+                        <h3 class="user_name">User name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        At expedita dolorem vitae asperiores maxime corporis iure tenetur ea molestias eaque.</p>
+                        <img class="story_image" src="../assets/story.png" alt="A modern kitchen with a classy decoration" width="600">
+                        <a href="" class="center_container_displaying_more"><img src="../assets/nabla.svg" width="20px" height="20px"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio molestiae libero voluptates, minima magnam rerum consequuntur
+                        tempora voluptatum at quod mollitia maiores optio perferendis aliquid ipsum
+                        officiis harum? Itaque magnam officia non laudantium veniam ullam soluta eum
+                        hic deserunt. Expedita corrupti atque culpa quae aliquam qui, deserunt harum quod ipsa!</p>
+                    
+                    </section>
+
+                    <section class="story_already_posted">
+                        <h3 class="user_name">User name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        At expedita dolorem vitae asperiores maxime corporis iure tenetur ea molestias eaque.</p>
+                        <img class="story_image" src="../assets/story.png" alt="A modern kitchen with a classy decoration" width="600">
+                        <a href="" class="center_container_displaying_more"><img src="../assets/nabla.svg" width="20px" height="20px"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio molestiae libero voluptates, minima magnam rerum consequuntur
+                        tempora voluptatum at quod mollitia maiores optio perferendis aliquid ipsum
+                        officiis harum? Itaque magnam officia non laudantium veniam ullam soluta eum
+                        hic deserunt. Expedita corrupti atque culpa quae aliquam qui, deserunt harum quod ipsa!</p>
+                    
+                    </section>
+
+                    <section class="story_already_posted">
+                        <h3 class="user_name">User name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        At expedita dolorem vitae asperiores maxime corporis iure tenetur ea molestias eaque.</p>
+                        <img class="story_image" src="../assets/story.png" alt="A modern kitchen with a classy decoration" width="600">
+                        <a href="" class="center_container_displaying_more"><img src="../assets/nabla.svg" width="20px" height="20px"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio molestiae libero voluptates, minima magnam rerum consequuntur
+                        tempora voluptatum at quod mollitia maiores optio perferendis aliquid ipsum
+                        officiis harum? Itaque magnam officia non laudantium veniam ullam soluta eum
+                        hic deserunt. Expedita corrupti atque culpa quae aliquam qui, deserunt harum quod ipsa!</p>
+                    
+                    </section>
+
+                    <section class="story_already_posted">
+                        <h3 class="user_name">User name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        At expedita dolorem vitae asperiores maxime corporis iure tenetur ea molestias eaque.</p>
+                        <img class="story_image" src="../assets/story.png" alt="A modern kitchen with a classy decoration" width="600">
+                        <a href="" class="center_container_displaying_more"><img src="../assets/nabla.svg"  width="20px" height="20px"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio molestiae libero voluptates, minima magnam rerum consequuntur
+                        tempora voluptatum at quod mollitia maiores optio perferendis aliquid ipsum
+                        officiis harum? Itaque magnam officia non laudantium veniam ullam soluta eum
+                        hic deserunt. Expedita corrupti atque culpa quae aliquam qui, deserunt harum quod ipsa!</p>
+                    
+                    </section>
+
+                    <section class="story_already_posted">
+                        <h3 class="user_name">User name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        At expedita dolorem vitae asperiores maxime corporis iure tenetur ea molestias eaque.</p>
+                        <img class="story_image" src="../assets/story.png" alt="A modern kitchen with a classy decoration" width="600">
+                        <a href="" class="center_container_displaying_more"><img src="../assets/nabla.svg" alt="" width="20px" height="20px"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio molestiae libero voluptates, minima magnam rerum consequuntur
+                        tempora voluptatum at quod mollitia maiores optio perferendis aliquid ipsum
+                        officiis harum? Itaque magnam officia non laudantium veniam ullam soluta eum
+                        hic deserunt. Expedita corrupti atque culpa quae aliquam qui, deserunt harum quod ipsa!</p>                
+                    </section>
+                </section>
+
+                               
+                
+            </section>
+            <section id="right_container">
+                <div class="sponsors">
+
+                    <h3>Sponsored</h3>
+                    <div class="sponsor">
+                        <img src="../assets/gem_pages.png" alt="GemPages image sponsor from gempages.net">
+                        <div class="text_content_in_sponsor">
+                            <p>GemPages</p>
+                            <a href="https://gempages.net/">gempages.net</a>
+                        </div>
+                    </div>                    
+                    <div class="sponsor">
+                        <img src="../assets/twilio.png" alt="Twilio image sponsor from gempages.net">
+                        <div class="text_content_in_sponsor">
+                            <p>Trilio</p>
+                            <a href="https://trilio.io/">trilio.io</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="parent_of_contacts"></div>
+                    <h3>Contacts</h3>
+                    <form action="" id="searching_contact">
+                        <input type="text" placeholder="Contact">
+                    </form>
+                    <nav id="contacts">
+                        
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                                <a href="#"">Jaron Oliver</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Jesse Olsen</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Miguel Hanna</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Kylan Meadows</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Ronan Vang</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Saige Rhodes</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Glenn Charles</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Kaylynn Underwood</a>
+                        </div>
+                        
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Marlon Martinez</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Kelvin Tucker</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Scarlet Buchanan</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Kiersten Cox</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Annabella Chase</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Jolie Williamson</a>
+                        </div>
+                        
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Paul Burke</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Anabel Chen</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Destiney Parrish</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Tomas Hart</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Kailey Johnson</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Cole Chambers</a>
+                        </div>
+                        
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Trenton Warner</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                                <a href="#"">Jaron Oliver</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Jesse Olsen</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Miguel Hanna</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Kylan Meadows</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Ronan Vang</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Saige Rhodes</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Glenn Charles</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Kaylynn Underwood</a>
+                        </div>
+                        
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Marlon Martinez</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Kelvin Tucker</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Scarlet Buchanan</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Kiersten Cox</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Annabella Chase</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Jolie Williamson</a>
+                        </div>
+                        
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Paul Burke</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Anabel Chen</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Destiney Parrish</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Tomas Hart</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Kailey Johnson</a>
+                        </div>
+
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Cole Chambers</a>
+                        </div>
+                        
+                        <div class="container_contact">
+                            <img src="#" alt="#" class="image_contact">
+                            <a href="#"">Trenton Warner</a>
+                        </div>
+            
+                    </nav>
+                </div>
+            </section>
+        </section>
+        
+        <script type="text/javascript" src="../src/script.js"></script>
+    </body>
+    <footer>
+        <nav>
+            <a href="#">Confidentiality</a>
+            <a href="#">Conditions</a>
+            <a href="#">Legal Blahblah</a>
+            <a href="#">Legal Blahblah</a>
+        </nav>
+    </footer>
+</html>

@@ -1,0 +1,177 @@
+/*Global*/
+#master_container{
+    border: 1px solid black;
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+    background-color: pink;
+    overflow: scroll;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*Body*/
+body{
+    background-color: black
+}
+
+
+/*Upper section: infos and user pictures*/
+#upper_section{
+    height: 60%;
+}
+
+#user_cover{
+    height: 40%;
+    border: 1px solid black;
+    background: url(../assets/default_user_cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#user_banner{
+    height: 10%;
+    width: 100%;
+    border: 1px solid black;
+    display: inline-flex;
+}
+
+#user_infos_in_user_banner{
+    width: 85%;
+    height: 100%;
+}
+
+#user_infos_in_user_banner p{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#user_modify_profile{
+    width: 15%;
+    vertical-align: bottom;
+}
+
+#user_modify_profile input{
+    margin-top: 28px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+#user_default_picture{
+    float: inline-start;
+    width: 120px;
+    position: relative;
+    z-index: 4;
+    bottom:85px;
+    left:0;
+}
+
+
+
+#suggested_friends_for_user{
+    margin: 5px;
+    height: 50%;
+    border: 1px solid black;
+    background-color: darkolivegreen;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.friend_suggested{    
+    height: 90%;
+    width: 17%;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.friend_suggested img{
+    width: 95%;
+    height: 85%;
+}
+
+.friend_suggested img:hover{
+    filter: opacity(0.6);
+}
+
+.friend_suggested p{
+    margin: 0;
+}
+
+#bottom_section{
+    width: 100%;
+    border: 1px solid black;
+    background-color: darkgoldenrod;
+    height: 80%;
+    margin-top: 20px;
+    overflow: visible;
+    display: flex;
+}
+
+/*Left section: friends and infos*/
+#left_side{
+    width: 40%;
+    height: 100%;
+    background-color: darkmagenta;
+    border: 1px solid black;
+}
+
+#infos_about_user{
+    height: 30%;
+    background-color: grey;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#infos_about_user p, #infos_about_user input{
+    font-weight: bold;
+}
+
+
+
+#friends_of_user{
+    background-color: darkslateblue;
+    border: 1px solid black;
+    height: 70%;
+    text-align: center;
+}
+
+#displaying_friends {
+    display: inline;
+}
+
+#friends_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user_friend{
+    width: 30%;
+    height: 30%;
+    border: 1px solid black;
+}
+
+.user_friend img{
+    width: 100%;
+    height: 80%;
+}
+
+/*Right section: User stories*/
+#right_side{
+    width: 50%;
+    height: 59%;
+    text-align: center;
+}

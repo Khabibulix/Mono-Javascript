@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles.css">
+        <title>FakeBook</title>
+    </head>
+
+    <body>
+        <section id="master_body">
+            <section id="left_side">
+                <img src="../assets/banner.png" alt="Fakebook banner" width="400px" height="100px">
+                <h1 id="text_beside_banner">Avec Facebook, partagez et restez en contact avec votre entourage</h1>
+            </section>
+
+            <form id="right_side_form" method="post" name="form" onsubmit="return validated()">
+                
+                <input autocomplete="off" class="input_text" type="text" name="mail" placeholder="Adresse e-mail">
+                <div id="email_error">Please fill up your mail here</div>
+
+                <input autocomplete="off" type="password" class="input_text" name="password" placeholder="Mot de passe">
+                <div id="pass_error">Please fill up your pass here</div>
+
+                <button type="submit" id="submit_button">Se connecter</button>
+
+                <a  id="no_pass">Mot de passe oublié?</a>   
+
+                <input type="button" name="new" id ="new_account" value="Créer nouveau compte">
+
+            </form>
+
+        </section>
+        
+        <script src="../js/script.js"></script>
+    </body>
+    
+    <footer>
+        <section class="setting_language">    
+            <a id="fr" href="#"">Français (France)</a>
+            <a id="en" href="#">English (US)</a>
+        </section>
+        <nav>
+            <a href="#">S’inscrire</a>
+            <a href="#">Se connecter</a>
+            <a href="#">Messenger</a>
+            <a href="#">Facebook</a>
+            <a href="#">Lite</a>
+            <a href="#">Watch</a>
+            <a href="#">Lieux</a>
+            <a href="#">Jeux</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Pay</a>
+            <a href="#">Oculus</a>
+            <a href="#">Portal</a>
+            <a href="#">Instagram</a>
+            <a href="#">Bulletin</a>
+            <a href="#">Local</a>
+            <a href="#">Collectes de fonds</a>
+            <a href="#">Services</a>
+            <a href="#">Centre d’information sur les élections</a>
+            <a href="#">Groupes</a>
+            <a href="#">À propos</a>
+            <a href="#">Créer une publicité</a>
+            <a href="#">Créer une Page</a>
+            <a href="#">Développeurs</a>
+            <a href="#">Emplois</a>
+        </nav>
+    </footer>
+</html>
