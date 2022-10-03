@@ -1,0 +1,31 @@
+form{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    
+}
+form a{
+    text-decoration: none;
+    color: white;		
+}
+
+form a:hover{
+    color: yellow;
+}
+
+div{
+    margin:0;
+    border: none;
+    text-align: center;
+    
+}
+
+blockquote{
+    margin:0;
+    font-size: 1.4em;
+}
+
+
+

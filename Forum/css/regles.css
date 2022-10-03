@@ -1,0 +1,39 @@
+h1
+	{
+		text-align: center;
+		font-size: 3em;
+	}
+	h2
+	{	
+		padding: 5px;
+		text-align: center;
+		font-size: 1.3em;
+	}
+	.question
+	{
+		padding: 5px;
+		text-decoration: underline;
+		font-size: 1.1em;
+	}
+	.rep
+	{
+		width: 100vw;
+		padding: 5px;
+		font-size: .9em;
+	}
+
+	.rep a
+	{
+		text-decoration: none;
+		color: yellow;
+	}
+	.rep ul li
+	{
+		list-style-type: none;
+	}
+	.signature
+	{
+		font-family: cottonwood, sans-serif;
+		font-size: 1.3em;
+		margin: 10px;
+	}

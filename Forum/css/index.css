@@ -1,0 +1,32 @@
+.speech
+	{
+		position: absolute;
+		top: 30%;
+		left: 30%;
+		width: 700px;
+		height: 400px;
+		background-color: black;
+		color: yellow;
+	}
+	.menu
+	{
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		width: 50%;
+		position:absolute;
+		top: 5%;
+		left: 25%;
+	}
+	.menu a
+	{
+		color: white;
+		text-decoration: none;
+		border: 1px white solid;
+		padding: 3px;
+	}
+	.menu a:hover
+	{
+		color: yellow;
+		border: 1px yellow solid;
+	}
