@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image editor</title>
+  </head>
+
+  <body class="
+    flex
+    items-center
+    justify-center
+    min-h-screen
+    bg-blue-200
+  ">
+
+    <div id="container" class="
+      w-128
+      bg-white
+      shadow-md
+      rounded-lg
+      p-8
+      h-2/3
+    ">
+      <h2 class="
+        text-xl
+        font-semibold
+      ">Easy image editor</h2>
+
+      <div id="wrapper" class="
+        flex
+        mx-5
+      ">
+          <div id="editor-panel" class="
+            border
+            border-gray-300
+            border-solid
+            py-3.5
+            px-5
+            w-72
+            rounded
+          ">
+            <div id="filter">
+              <label id="title" class="
+                block
+                text-base
+                mb-3
+
+              ">Filters</label>
+
+              <div id="options" class="
+                flex
+                flex-wrap
+                justify-between
+              ">
+
+                <button class="
+                  h-10
+                  text-base
+                  text-gray-400
+                  w-28
+                  border
+                  border-gray-300
+                  border-solid
+                  mb-2
+                  rounded
+                  bg-white
+                  hover:bg-blue-600
+                  hover:border-blue-600
+                  hover:text-white
+                ">Brightness</button>
+
+                <button class="
+                  h-10
+                  text-base
+                  text-gray-400
+                  w-28
+                  border
+                  border-gray-300
+                  border-solid
+                  mb-2
+                  rounded
+                  bg-white
+                  hover:bg-blue-600
+                  hover:border-blue-600
+                  hover:text-white
+                ">Saturation</button>
+
+                <button class="
+                  h-10
+                  text-base
+                  text-gray-400
+                  w-28
+                  border
+                  border-gray-300
+                  border-solid
+                  mb-2
+                  rounded
+                  bg-white
+                  hover:bg-blue-600
+                  hover:border-blue-600
+                  hover:text-white
+                ">Inversion</button>
+
+                <button class="
+                  h-10
+                  text-base
+                  text-gray-400
+                  w-28
+                  border
+                  border-gray-300
+                  border-solid
+                  mb-2
+                  rounded
+                  bg-white
+                  hover:bg-blue-600
+                  hover:border-blue-600
+                  hover:text-white
+                ">Grayscale</button>
+              </div>
+              <div id="slider" class="
+              mt-3
+              ">
+                <div id="filter-info" class="
+                  flex
+                  justify-between
+                  text-gray-700
+                  text-base
+                ">
+                  <p id="name_of_filter">Brightness</p>
+                  <p id="value_of_filter">100%</p>
+                </div>
+                <input 
+                  type="range" 
+                  value="100" 
+                  min="0" 
+                  max="200"
+                  class="
+                    w-full
+                    h-1
+                    accent-indigo-500
+                  "
+                >
+              </div>
+            </div>
+            <div id="rotate" class="
+              mt-4
+              
+            ">
+              <label>Rotate & Flip</label>
+              
+              <div id="options" class="
+                flex
+                flex-wrap
+                justify-between
+              ">
+                <button class="
+                  w-14
+                ">↩</button>
+                <button class="
+                  w-14
+                ">↪</button>
+                <button>↔</button>
+                <button>↕</button>
+              </div>
+            </div>
+          </div>
+          <div id="preview-img">
+            <img src="" alt="preview-image">
+          </div>
+      </div>
+      <div id="controls">
+        <button id="reset-filter">Reset filters</button>
+        <div id="row">
+            <button id="choose-img">Choose Image</button>
+            <button id="save-img">Save Image</button>
+        </div>
+      </div>
+
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

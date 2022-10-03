@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image editor</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body">
+
+    <div class="container disable">
+      <h2 class">Easy image editor</h2>
+      <div id="wrapper">
+          <div id="editor_panel">
+
+            <div id="filter">
+              <label id="title">Filters</label>
+
+              <div id="filter_options">
+                <button id ="brightness" class="active">Brightness</button>
+                <button id ="saturation" class="">Saturation</button>
+                <button id ="inversion" class="">Inversion</button>
+                <button id ="grayscale" class="">Grayscale</button>
+              </div>
+
+              <div id="slider"">
+                <div id="filter-info"">
+                  <p id="name_of_filter">Brightness</p>
+                  <p id="value_of_filter">100%</p>
+                </div>
+                <input type="range" value="100" min="0" max="200">
+              </div>
+
+            </div>
+            <div id="rotate">
+              <label>Rotate & Flip</label>              
+              <div id="rotate_options">
+                <button id="left">↩</button>
+                <button id="right">↪</button>
+                <button id="horizontal">↔</button>
+                <button id="vertical">↕</button>
+              </div>
+            </div>
+          </div>
+          <div id="preview-img">
+            <img src="" width="600" alt="If you see this, please choose an image with the buttons below">
+          </div>
+      </div>
+      <div id="controls">
+        <button id="reset-filter">Reset filters</button>
+        <div id="row">
+          <input type="file" id="file-input" accept="image/*" hidden>
+            <button id="choose-img">Choose Image</button>
+            <button id="save-img">Save Image</button>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
