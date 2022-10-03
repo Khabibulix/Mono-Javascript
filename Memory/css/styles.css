@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #6563ff
+}
+
+.wrapper{
+    height: 400px;
+    width: 400px;
+    padding: 25px;
+    background: #f8f8f8;
+    border-radius: 10px;
+}
+
+.cards, .card, .view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    height: 100%;
+    width: 100%;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards .card{
+    cursor: pointer;
+    position: relative;
+    height: calc(100% / 4 - 10px);
+    width: calc(100% / 4 - 10px);
+}
+
+.cards .card .view {    
+    height: 100%;
+    width: 100%;  
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+}
+
+
+.card .front-view span{
+    font-size: 43px;
+    color: #6563ff;
+}
+
+.card .back-view {
+    max-width: 45px;
+    visibility: hidden;
+}
+
+.card .back-view {
+    max-width: 45px;
+}
+
+.player_infos{
+    height: 200px;
+    padding-top: 30px;
+}
+
+
+
+#reset_button{
+    background-color: white;
+    border: 1px solid #6563ff;
+    color: #6563ff;    
+    border-radius: 7px;
+    width: 100px;
+}
+
+#reset_button:hover{
+    background-color: #6563ff;
+    border: 1px solid white;
+    color: white;
+}
